@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    - var app_title = "Plant Dat"
+    - var app_description = "Indigenous plants for water management"
+    - var app_twitter = "@plant_dat"
+    - var app_url = "http://www.plantdat.com/"
+    // metadata
+    title #{app_title}
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport" charset="utf-8" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1")
+    meta(name="description", content=app_description)
+    meta(name="author", content="Jenna deBoisblanc")
+    
+    // opengraph 
+    meta(property="og:url" content=app_url)
+    meta(property="og:type" content="website")
+    meta(property="og:title" content=app_title)
+    - var ogurl = app_url + "images/og.jpg";
+    meta(property="og:image" content=ogurl)
+    meta(property="og:site_name" content=app_title)
+    meta(property="og:description" content=app_description)
+
+    // twitter
+    meta(name="twitter:card", content="summary_large_image")
+    meta(name="twitter:site", content=app_twitter)
+    meta(name="twitter:title", content=app_title)
+    meta(name="twitter:description", content=app_description)
+
+    // stylesheets
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+    link(rel="stylesheet" href="/stylesheets/style.css")
+    
+    // swiper stylesheets
+    link(rel="stylesheet" href="/stylesheets/swiper.min.css")
+
+  body
+    include navbar.pug
+    
+    div.container#page-container
+      div#content-wrap
+        block content
+
+    
+      
+    footer.page-footer.font-small.plantColor.pt-4
+      div.container-fluid
+        div.row
+          div.col-md-6.mt-md-0.mt-3.text-center.text-md-left
+            h5 Mission
+            hr
+            p Plant Dat seeks to promote indigenous plants, pavement removal, and green infrastructure for sustainable water management in New Orleans.
+          div.col-md-6.mt-md-0.mt-3.text-center
+            a(href="https://www.instagram.com/plant_dat/") 
+              i(class="fa fa-instagram socials" aria-hidden="true")
+    // scripts
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
+    script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js")
+    
+    block customScripts

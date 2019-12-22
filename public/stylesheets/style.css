@@ -1,0 +1,149 @@
+html {
+  height:100%;
+}
+
+body {
+  position:relative;
+  padding-top: 70px;
+  min-height: 100%;
+}
+
+.plantColor {
+  color:white;
+  background-color: #11bb7e; //#afffae
+}
+
+.jumbotron {
+  background: rgb(233,	236,	239); /* This is for ie8 and below */
+  background: rgba(233,	236,	239, 0.5);
+}
+
+.imgtile {
+  background-image: url("../images/og.jpg");
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  background-repeat: repeat-y;
+  opacity: 0.05;
+  background-size:     cover;
+}
+
+
+
+#plantCodeBox {
+  width: 160px;
+}
+
+#code {
+  visibility: hidden;
+}
+
+.latin {
+  font-style: italic;
+}
+
+.swiper-container {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+
+}
+
+.swiper-wrapper {
+  padding-top: 20px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+  top: 0px;
+  bottom: auto;
+  z-index: -1;
+}
+
+
+.slideIcon  {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.slideIcon img {
+  width:80%;
+  height: auto;
+
+}
+
+#digdiv {
+  border: 1px solid rgba(0,0,0,.125);
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  height: 400px;
+  width: 100%;
+}
+
+
+button.spawn {
+  width: 100%;
+  background-color: #9bf563; //#dcff52;
+}
+
+button.spawnhome {
+  width: 200px;
+  background-color: #9bf563; //#dcff52;
+}
+
+.plantIcon {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+.beautyIcon {
+  background-image: url("../images/icons/beauty.png");
+  background-size:cover;
+  height:95%;
+  width:95%;
+  background-repeat:no-repeat;
+  background-position : center center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 300px;    /* Footer height */
+}
+
+button {
+  z-index: 1000;
+}
+
+footer {
+  /* margin-top: 30px; */
+  color:white;
+   padding:10px;
+  padding-bottom:20px;
+
+  /* height: 2.5rem; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+              /* Footer height */
+}
+
+.socials {
+  font-size: 50px;
+  color: white;
+}

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1.mb-3 Pick your plot!
+  
+  div#digdiv.text-center.mb-3  
+  
+  div.mb-3
+    button.btn.spawn(onclick="spawn()") Dig!
+  div#namediv.d-none
+    |#{plantType.short_name}
+block customScripts  
+  script(type="text/javascript" src="../../javascripts/digging.js")

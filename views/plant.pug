@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  h1 plant
+  div #{plant.name}
+  div.latin #{plantType.latin_name}
+
+  div#plantCanvas
+  
+  if plant.spawned
+    div.bio
+      h4 bio 
+      p #{plantType.bio}
+    div.stats
+      h4 stats  
+      -var now = (Date.now());
+      -var born = new Date(moment(plant.created_at).format("YYYY-MM-DD HH:mm"))
+      -var diffHours = (now - born)/1000/60/60;
+      -var roundedHours = diffHours.toFixed(1);
+      p Age: #{roundedHours} hours
+    
+  div#code #{plant.code}
+
+block customScripts
+  script(src="/javascripts/plantSketch.js")
+    

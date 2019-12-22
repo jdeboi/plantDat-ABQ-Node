@@ -1,0 +1,13 @@
+nav.navbar.fixed-top.navbar-dark.plantColor
+    a(class="navbar-brand" href="/") #{app_title}
+    button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar")
+        span(class="navbar-toggler-icon")
+    div.navbar-collapse.collapse#collapsingNavbar
+        ul.navbar-nav
+            li.nav-item(class=(title === "Home" ? "active" : undefined))
+                a(class="nav-link" href="/") Home 
+                  span.sr-only Home
+            li.nav-item(class=(title === "About" ? "active" : undefined))
+                a(class="nav-link" href="/about") About
+            li.nav-item(class=(title === "Resources" ? "active" : undefined))
+                a(class="nav-link" href="/resources") Resources

@@ -1,0 +1,21 @@
+mixin plantCard(plantType)
+  div.card.top-buffer
+    div.card-header 
+      h2=plantType.name  
+      h5.latin=plantType.latin_name
+    div.card-body
+      div.row
+        div.col.text-center
+          -var link = "/api/dig/" + plantType.short_name  
+          a(href=link)
+            button.btn.spawn Plant me!
+      div.row.top-buffer
+        div.col-lg-6.mb-3
+          div.slideIcon
+            -var imgsrc = "../images/icons/" + plantType.img_path;
+            img(src=imgsrc)
+        div.col-lg-6.mb-3
+          div.card
+            div.card-header
+              h5.mb-0 Bio
+            div.card-body=plantType.bio

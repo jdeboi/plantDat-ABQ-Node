@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  include includes/plantCard.pug
+  div.swiper-container
+    div.swiper-wrapper
+      for plant in plantTypes
+        div.swiper-slide 
+          +plantCard(plant)
+    div.swiper-pagination
+  
+      
+//- 
+block customScripts  
+  script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js")
+  script(type="text/javascript" src="../javascripts/swiperstart.js")
