@@ -33,40 +33,5 @@
     "latin_name": "Stokesia laevis",
     "bio": "This summer bloomer needs very little maintenance and sows itself easily. It enjoys the sun but is versatile and happy with a little shade. A great nectar source for pollinators and easily divides by root cuttings. This aster is happy to accept extra rainwater in sandy soils, and to grow densely in areas when left for several years.",
     "img_path": "stokes.png"
-  },
-  {
-    "name": "Buttonbush",
-    "short_name": "button",
-    "latin_name": "Cephalanthus occidentalis",
-    "bio": "bio here",
-    "img_path": "stokes.png"
-  },
-  {
-    "name": "Blue-Eyed Grass",
-    "short_name": "blueeye",
-    "latin_name": "Sisyrinchium angustifolium",
-    "bio": "bio here",
-    "img_path": "stokes.png"
-  },
-  {
-    "name": "Rose Mallow",
-    "short_name": "rose",
-    "latin_name": "Hibiscus moscheutos",
-    "bio": "bio here",
-    "img_path": "stokes.png"
-  },
-  {
-    "name": "Frog Fruit",
-    "short_name": "frog",
-    "latin_name": "Phyla nodiflora",
-    "bio": "bio here",
-    "img_path": "stokes.png"
-  },
-  {
-    "name": "Sleeping Hibiscus",
-    "short_name": "sleeping",
-    "latin_name": "Malvaviscus arboreus var. drummondii",
-    "bio": "bio here",
-    "img_path": "stokes.png"
   }
 ]
