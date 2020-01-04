@@ -1,6 +1,7 @@
 
 
 var mongoose = require('mongoose');
+var plantTypeJson = require('../public/json/plantTypes.json');
 
 var plantSchema = new mongoose.Schema({
 
@@ -25,22 +26,6 @@ var plantSchema = new mongoose.Schema({
 }, { collection : 'plants' });
 
 plantSchema.statics.create = function (plant, callback) {
-  let name = "";
-  if (plant.short_name == "beauty") {
-    name = "American Beautyberry";
-  }
-  else if (plant.short_name == "clasping") {
-    name = "Clasping Cone Flower";
-  }
-  else if (plant.short_name == "stokes") {
-    name = "Stokes Aster";
-  }
-  else if (plant.short_name == "lizard") {
-    name = "Lizard's Tail";
-  }
-  else if (plant.short_name == "obedient") {
-    name = "Correll’s Obedient Plant";
-  }
   let num = Plant.count((err, count) => {
     if (err) throw err;
     console.log("xy", plant);
@@ -48,7 +33,7 @@ plantSchema.statics.create = function (plant, callback) {
       x: plant.x,
       y: plant.y,
       // color: getRandomColor(),
-      plantType: name,
+      plantType: plant.short_name,
       created_at: new Date(),
       // height: 0,
       spawned: true,

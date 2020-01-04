@@ -10,23 +10,23 @@ router.get('/plants', function(req, res, next) {
   res.render('plants', { title: 'Plants', plantTypes: plantTypeJson });
 });
 
-router.get('/dig/beauty', function(req, res, next) {
+router.get('/dig/spoon', function(req, res, next) {
   res.render('digging', { title: 'Dig', plantType: plantTypeJson[0] });
 });
 
-router.get('/dig/clasping', function(req, res, next) {
+router.get('/dig/cane', function(req, res, next) {
   res.render('digging', { title: 'Dig', plantType: plantTypeJson[1] });
 });
 
-router.get('/dig/lizard', function(req, res, next) {
+router.get('/dig/milkweed', function(req, res, next) {
   res.render('digging', { title: 'Dig', plantType: plantTypeJson[2] });
 });
 
-router.get('/dig/obedient', function(req, res, next) {
+router.get('/dig/sunflower', function(req, res, next) {
   res.render('digging', { title: 'Dig', plantType: plantTypeJson[3]  });
 });
 
-router.get('/dig/stokes', function(req, res, next) {
+router.get('/dig/blue', function(req, res, next) {
   res.render('digging', { title: 'Dig', plantType: plantTypeJson[4]  });
 });
 
