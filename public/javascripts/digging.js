@@ -156,7 +156,7 @@ function spawn() {
 
 function createWebsocket() {
 
-  ws = new WebSocket("wss://" + ip +":" + port + "/"); //172.17.15.216:8025/");
+  ws = new WebSocket("ws://" + ip +":" + port + "/"); //172.17.15.216:8025/");
 
   ws.onopen = function() {
     // Web Socket is connected, send data using send()
