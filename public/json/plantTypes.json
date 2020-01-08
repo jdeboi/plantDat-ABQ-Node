@@ -3,14 +3,14 @@
     "name": "Desert Spoon",
     "short_name": "spoon",
     "latin_name": "Dasylirion wheeleri",
-    "bio": "This long-living, low-maintenance yucca relative grows in full sun with good drainage. When the Desert Spoon blooms, the flowers (pinkish in females and white in males) attract many pollinators and butterflies.",
+    "bio": "This long-living, low-maintenance yucca relative grows in full sun in soils with good drainage. When the Desert Spoon blooms, the flowers (pinkish in females and white in males) attract many pollinators and butterflies.",
     "img_path": "spoon.jpg"
   },
   {
     "name": "Cane Cholla",
     "short_name": "cane",
     "latin_name": "Cylindropuntia imbricata",
-    "bio": "A great accent cactus, the Cane Cholla is notable for bushy stems and its long-lasting fruits. Roadrunners and thrashers nest in this cactus. Plant Cane Cholla in higher, dryer soils.",
+    "bio": "A great accent cactus, the Cane Cholla is notable for bushy stems and long-lasting fruits. Roadrunners and thrashers nest in this cactus. Plant Cane Cholla in higher, dryer soils.",
     "img_path": "cane.jpg"
   },
   {
@@ -31,7 +31,7 @@
     "name": "Little Bluestem",
     "short_name": "blue",
     "latin_name": "Schizachyrium scoparium",
-    "bio": "This perennial is a low-maintenance prairie bunchgrass. New growth appears bluish, maturing to a reddish-gold color. This deep-rooting grass is very resilient. Little bluestem is great as an ornamental grass for adding a design or pattern to gardens.",
+    "bio": "This perennial is a low-maintenance prairie bunchgrass. New growth appears bluish, maturing to a reddish-gold color. This deep-rooting grass is very resilient. Little bluestem is a great ornamental grass for crafting design patterns in gardens.",
     "img_path": "blue.jpg"
   }
 ]
