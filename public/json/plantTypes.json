@@ -2,36 +2,36 @@
   {
     "name": "Desert Spoon",
     "short_name": "spoon",
-    "latin_name": "...",
-    "bio": "bio",
+    "latin_name": "Dasylirion wheeleri",
+    "bio": "This long-living, low-maintenance yucca relative grows in full sun with good drainage. When the Desert Spoon blooms, the flowers (pinkish in females and white in males) attract many pollinators and butterflies.",
     "img_path": "spoon.jpg"
   },
   {
     "name": "Cane Cholla",
     "short_name": "cane",
-    "latin_name": "...",
-    "bio": "bio",
+    "latin_name": "Cylindropuntia imbricata",
+    "bio": "A great accent cactus, the Cane Cholla is notable for bushy stems and its long-lasting fruits. Roadrunners and thrashers nest in this cactus. Plant Cane Cholla in higher, dryer soils.",
     "img_path": "cane.jpg"
   },
   {
     "name": "Showy Milkweed",
     "short_name": "milkweed",
-    "latin_name": "...",
-    "bio": "bio",
+    "latin_name": "Asclepias speciosa",
+    "bio": "This perennial has showy, spherical clusters of rose-colored flowers. The flower is a larval host for Monarch butterflies. Showy Milkweed will grow in a variety of soil types and conditions.",
     "img_path": "milkweed.jpg"
   },
   {
     "name": "Maximillian Sunflower",
     "short_name": "sunflower",
-    "latin_name": "...",
-    "bio": "bio",
+    "latin_name": "Helianthus maximiliani",
+    "bio": "This prairie perennial grows to a height of 3-10ft. Multiple yellow flower heads grow on the stalks. The sunflower's nectar lures birds, butterflies, and bees. The plant isn't especially picky about soil and doesn't need much maintenance.",
     "img_path": "sunflower.jpg"
   },
   {
     "name": "Little Bluestem",
     "short_name": "blue",
-    "latin_name": "...",
-    "bio": "bio",
-    "img_path": "bluestem.jpg"
+    "latin_name": "Schizachyrium scoparium",
+    "bio": "This perennial is a low-maintenance prairie bunchgrass. New growth appears bluish, maturing to a reddish-gold color. This deep-rooting grass is very resilient. Little bluestem is great as an ornamental grass for adding a design or pattern to gardens.",
+    "img_path": "blue.jpg"
   }
 ]
