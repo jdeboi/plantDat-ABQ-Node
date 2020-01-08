@@ -4,34 +4,34 @@
     "short_name": "spoon",
     "latin_name": "...",
     "bio": "bio",
-    "img_path": "imageholder.png"
+    "img_path": "spoon.jpg"
   },
   {
     "name": "Cane Cholla",
     "short_name": "cane",
     "latin_name": "...",
     "bio": "bio",
-    "img_path": "imageholder.png"
+    "img_path": "cane.jpg"
   },
   {
     "name": "Showy Milkweed",
     "short_name": "milkweed",
     "latin_name": "...",
     "bio": "bio",
-    "img_path": "imageholder.png"
+    "img_path": "milkweed.jpg"
   },
   {
     "name": "Maximillian Sunflower",
     "short_name": "sunflower",
     "latin_name": "...",
     "bio": "bio",
-    "img_path": "imageholder.png"
+    "img_path": "sunflower.jpg"
   },
   {
     "name": "Little Bluestem",
     "short_name": "blue",
     "latin_name": "...",
     "bio": "bio",
-    "img_path": "imageholder.png"
+    "img_path": "bluestem.jpg"
   }
 ]
