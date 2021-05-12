@@ -22,7 +22,7 @@
     "nodemon": "^1.19.4",
     "pug": "2.0.0-beta11",
     "socket.io": "^2.3.0",
-    "swiper": "^4.5.1",
+    "swiper": "^6.5.1",
     "ws": "^7.2.1"
   },
   "devDependencies": {
